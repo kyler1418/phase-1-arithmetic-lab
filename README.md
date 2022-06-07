@@ -133,7 +133,7 @@ highest priority; exponentiation is second; then multiplication, division, and
 remainder; and, finally, addition and subtraction, in order from left to right.
 This is how the JavaScript compiler works. For example:
 
-`( )` → `**` → `*` `/` `%` → `+` `-`
+
 
 ```js
 2 - (2 % 2) + (2 / 2 ** 2) * 2;
@@ -215,28 +215,7 @@ JavaScript has a number of operators for assigning a value to a variable. We've
 already used the most basic, `=`, but we can also couple it with an arithmetic
 operator to perform an operation _and_ assign the value of the operation:
 
-```js
-let counter = 0;
-//=> undefined
 
-counter += 10;
-//=> 10
-
-counter -= 2;
-//=> 8
-
-counter *= 4;
-//=> 32
-
-counter /= 2;
-//=> 16
-
-counter %= 6;
-//=> 4
-
-counter **= 3;
-//=> 64
-```
 
 ## Explain What `NaN` Is
 
